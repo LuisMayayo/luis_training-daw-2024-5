@@ -1,5 +1,5 @@
-function printMultiplicationTables() {
-
+function printMultiplicationTables() {  
+    
 }
 
 printMultiplicationTables()

@@ -1,8 +1,19 @@
-function pingPong() {
-
+function imprimirNumeros() {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 10 === 0) {
+            console.log("PONG");
+        } else if (i % 5 === 0) {
+            console.log("PING");
+        } else {
+            console.log(i);
+        }
+    }
 }
+recorrerNumeros();
 
-pingPong()
+
+
+
 // expected output
 // 1
 // 2
