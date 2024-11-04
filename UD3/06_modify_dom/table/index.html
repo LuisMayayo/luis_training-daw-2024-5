@@ -16,9 +16,6 @@
     }
     main {
         display: flex;
-        /* max-width: 450px; */
-        /* width: 100%; */
-        /* flex-direction: column; */
         flex-wrap: wrap;
         justify-content: center;
         padding-right: 100px;
@@ -28,11 +25,9 @@
         flex-grow: 1;
     }
     .data {
-        /* max-width: 450px; */
         width: 70%;
         display: flex;
         flex-direction: column;
-
         border: 1px solid gray;
         border-radius: 5px;
         padding: 25px;
@@ -58,15 +53,19 @@
         <div class="data">
             <table>
                 <thead>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Surname</th>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Acciones</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>0</td>
                         <td>John</td>
                         <td>Foo</td>
+                        <td><a href="http://localhost/edit/0">Edit</a></td>
                     </tr>
                 </tbody>
             </table>
